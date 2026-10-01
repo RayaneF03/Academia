@@ -32,6 +32,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
+app.UseAuthorization();//precisa de autorização para entrar
+
 app.UseAuthorization();
 
 app.MapStaticAssets();
