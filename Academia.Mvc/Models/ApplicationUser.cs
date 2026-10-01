@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Identity;
+
 namespace Academia;
 
 public class ApplicationUser : IdentityUser

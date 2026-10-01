@@ -2,10 +2,10 @@ using System.Runtime.CompilerServices;
 
 namespace Academia;
 
-public class Produtos
+public class Produto
 {
- public int Id { get; set;}
- public string Nome { get; set; }
- public decimal Preco { get; set; }
- public int Estoque { get; set;}   
+    public int Id { get; set; }
+    public string Nome { get; set; } = string.Empty;
+    public decimal Preco { get; set; }
+    public int Estoque { get; set; }
 }
