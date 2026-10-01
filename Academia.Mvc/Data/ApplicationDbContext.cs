@@ -1,7 +1,7 @@
 using System.Reflection;
 using System.Security.AccessControl;
 
-namespace Academia;
+namespace Academia.Mvc;
 
 public class ApplicationDbContext
 {
